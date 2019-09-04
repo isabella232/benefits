@@ -12,15 +12,21 @@ td,th {
 th {
   background-color: #c0c0c0;
 }
-.selected {
+td.selected {
   background-color: #c0c0c0;
+}
+p.sample {
+  color: #ff0000;
+  font-size: 150%;
+}
+p.selected {
+  color: #0000ff;
+}
+p {
+  font-size: 135%;
 }
 h3 {
   color: #ff0000;
-}
-li {
-  font-size: 140%;
-  font-weight: bold;
 }
 h1 {
   background-color: #24140e;
@@ -32,4 +38,10 @@ h4 {
 a {
   font-size: 200%;
   font-weight: bold;
+}
+h2 {
+  font-size: 250%;
+  font-weight: bold;
+  background-color: #00008b;
+  color: #ffffff;
 }
